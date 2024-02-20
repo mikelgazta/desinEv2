@@ -1,0 +1,59 @@
+.MainResponsive {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.primerCuadrado {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+}
+
+.cuadradoMitad1 {
+    background-color: brown;
+    height: 100%;
+    width: 50%;
+}
+
+.cuadradoMitad2 {
+    background-color: red;
+    height: 100%;
+    width: 50%;
+}
+
+.segundoCuadrado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 100%;
+}
+
+.inter1Cuadrado {
+    background-color: rgb(250, 108, 255);
+    height: 100%;
+    width: 100px;
+}
+.inter2Cuadrado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 100%;
+}
+.inter3Cuadrado {
+    display: flex;
+    background-color: rgb(15, 179, 0);
+    height: 100%;
+    flex-grow: 1;
+    
+}
+.inter4Cuadrado {
+    display: flex;
+    background-color: rgb(0, 119, 255);
+    height: 100%;
+    flex-grow: 2;
+}
